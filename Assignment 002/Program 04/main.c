@@ -1,5 +1,5 @@
-#include <math.h>
 #include <stdio.h>
+#include <math.h>
 
 // Write a C program to calculate the area of circle by taking radius as input.
 // Take pi = 3.14
