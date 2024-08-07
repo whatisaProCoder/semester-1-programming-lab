@@ -7,4 +7,4 @@ main
 # Ignore tasks.json
 # To prevent conflict between VSCode Windows & VSCode GitHub Codespace
 # Required tasks.json will be made by VSCode wherever it is run.
-tasks.json
+!.vscode/tasks.json
