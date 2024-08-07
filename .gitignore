@@ -1,1 +1,5 @@
-*.exe
+# Ignore main.exe files on Windows
+main.exe
+
+# Ignore main binary files on GitHub Codespaces
+main
