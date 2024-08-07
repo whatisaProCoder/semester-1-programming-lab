@@ -7,7 +7,7 @@ int main() {
 	printf("Enter two numbers : ");
 	scanf("%d%d",&a,&b);
 
-	printf("Two numbers are : %d and %d",a,b);
+	printf("Two numbers are : %d and %d\n",a,b);
 
 	return 0;
 }
