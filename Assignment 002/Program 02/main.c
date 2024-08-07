@@ -8,7 +8,7 @@ int main() {
     scanf("%d%d", &a, &b);
 
     sum = a - (-b);
-    printf("Summation = %d", sum);
+    printf("Summation = %d\n", sum);
 
     return 0;
 }

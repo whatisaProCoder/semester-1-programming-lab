@@ -3,18 +3,18 @@
 
 #include <stdio.h>
 int main() {
-	float l,w;
+    float l, w;
 
-	printf("Enter length : ");
-	scanf("%f",&l);
-	printf("Enter width : ");
-	scanf("%f",&w);
-	
-	l = l/3;
+    printf("Enter length : ");
+    scanf("%f", &l);
+    printf("Enter width : ");
+    scanf("%f", &w);
 
-	float area = l*w;
+    l = l / 3;
 
-	printf("Area of rectangle = %f",area);
+    float area = l * w;
 
-	return 0;
+    printf("Area of rectangle = %f\n", area);
+
+    return 0;
 }

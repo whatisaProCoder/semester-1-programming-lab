@@ -9,7 +9,7 @@ int main() {
     scanf("%f", &C);
 
     F = (9 * C) / 5 + 32;
-    printf("Temperature in Fahrenheit    : %f", F);
+    printf("Temperature in Fahrenheit    : %f\n", F);
 
     return 0;
 }

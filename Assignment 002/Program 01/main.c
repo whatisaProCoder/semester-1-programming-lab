@@ -8,7 +8,7 @@ int main() {
     scanf("%f%f%f%f%f", &a, &b, &c, &d, &e);
 
     float average = (a + b + c + d + e) / 5;
-    printf("Average = %f", average);
+    printf("Average = %f\n", average);
 
     return 0;
 }
