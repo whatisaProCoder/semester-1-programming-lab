@@ -18,3 +18,8 @@ int main() {
 
     return 0;
 }
+
+// Output :
+// Enter length : 10
+// Enter width : 15
+// Area of rectangle = 50.000000

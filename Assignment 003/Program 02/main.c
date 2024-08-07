@@ -15,3 +15,8 @@ int main() {
 
     return 0;
 }
+
+// Output :
+// Enter base : 10
+// Enter height : 15
+// Area of triangle = 75.000000

@@ -19,3 +19,11 @@ int main() {
 
     return 0;
 }
+
+// Output :
+// Enter x : 12
+// Enter y : 18
+
+// After swapping...
+// Value of x = 18
+// Value of y = 12
