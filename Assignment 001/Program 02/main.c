@@ -14,9 +14,9 @@ int main() {
     int pint = n - 1;
     int nint = n + 1;
 
-    printf("Square           : %d", sqr);
-    printf("Previous Integer : %d", pint);
-    printf("Next Integer     : %d", nint);
+    printf("Square           : %d\n", sqr);
+    printf("Previous Integer : %d\n", pint);
+    printf("Next Integer     : %d\n", nint);
 
     return 0;
 }
