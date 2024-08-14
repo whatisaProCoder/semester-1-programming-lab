@@ -16,3 +16,10 @@ int main() {
 
     return 0;
 }
+
+/*
+Output :
+Enter two numbers : 12 7
+Quotient  = 1.714286
+Remainder = 5
+*/
