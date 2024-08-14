@@ -8,4 +8,12 @@ int main() {
     scanf("%c", &ch);
 
     printf("ASCII Value = %d\n", ch);
+
+    return 0;
 }
+
+/*
+Output :
+Enter a character : A
+ASCII Value = 65
+*/
