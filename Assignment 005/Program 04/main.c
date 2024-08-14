@@ -1,4 +1,5 @@
 //  d)  Find the output of the program.
+//      Input a = 14, b = 4.
 
 #include <stdio.h>
 int main() {
