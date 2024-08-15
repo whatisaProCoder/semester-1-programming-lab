@@ -13,7 +13,7 @@ int main() {
     else
         abs = -n;
 
-    printf("Absolute value = %d\n", abs);
+    printf("Absolute value = %d\n", abs); 
 
     return 0;
 }
