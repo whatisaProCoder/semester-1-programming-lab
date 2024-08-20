@@ -1,5 +1,5 @@
-//  a)  Write a program to check whether the
-//      person is elible for vote or not.
+//  a)  WAP to check whether the person
+//      is elible for vote or not.
 
 #include <stdio.h>
 int main() {
