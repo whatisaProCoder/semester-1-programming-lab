@@ -1,4 +1,4 @@
-//  b)  WAP in C to take two integers as input from the user.
+//  c)  WAP in C to take two integers as input from the user.
 //      ONLY if both integers are positive, proceed to find
 //      the quotient and the remainder when the first integer
 //      is divided by the second integer.
