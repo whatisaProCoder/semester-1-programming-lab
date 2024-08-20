@@ -17,5 +17,7 @@ int main() {
 }
 
 /*
-Output :
+--------Output--------
+Enter age : 17
+Not eligible
 */
