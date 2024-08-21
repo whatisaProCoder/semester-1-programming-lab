@@ -24,7 +24,7 @@ int main() {
     else
         bill = (unit - 250) * 20 + 100 * 15 + 100 * 10 + 50 * 5;
 
-    addcharge = (20 / 100) * bill;
+    addcharge = 0.20 * bill;
     totalbill = bill + addcharge;
 
     printf("Total bill = %f\n", totalbill);
@@ -34,5 +34,6 @@ int main() {
 
 /*
 -----------Output------------
-
+Enter number of units : 100
+Total bill = 900.000000
 */
