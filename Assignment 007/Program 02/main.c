@@ -1,25 +1,23 @@
-//  b)  Check whether the character entered through the
-//      keyboard is a lowercase alphabet or upper case.
+//  b)  WAP in C to find out whether a number is
+//      even or odd using conditional operator.
 
 #include <stdio.h>
 int main() {
-    char ch;
+    int n;
 
-    printf("Enter a character : ");
-    scanf("%c", &ch);
+    printf("Enter a number : ");
+    scanf("%d", &n);
 
-    if (ch >= 'a' && ch <= 'z')
-        printf("Lowercase Alphabet\n");
-    else if (ch >= 'A' && ch <= 'Z')
-        printf("Uppercase Alphabet\n");
+    if (n % 2 == 0)
+        printf("Even number\n");
     else
-        printf("Neither lower or uppercase\n");
+        printf("Odd number\n");
 
     return 0;
 }
 
 /*
 -----------Output------------
-Enter a character : b
-Lowercase Alphabet
+Enter a number : 7
+Odd number
 */
