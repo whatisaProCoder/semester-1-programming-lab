@@ -9,15 +9,15 @@ int main() {
     scanf("%c", &ch);
 
     if (ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z')
-        printf("Character is alphabet\n");
+        printf("%c is alphabet\n", ch);
     else
-        printf("Character is not alphabet\n");
+        printf("%c is not alphabet\n", ch);
 
     return 0;
 }
 
 /*
 -----------Output------------
-Enter a number : $
-Character is not alphabet
+Enter a character : $
+$ is not alphabet
 */
