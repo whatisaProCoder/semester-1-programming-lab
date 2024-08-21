@@ -8,10 +8,7 @@ int main() {
     printf("Enter a number : ");
     scanf("%d", &n);
 
-    if (n % 2 == 0)
-        printf("Even number\n");
-    else
-        printf("Odd number\n");
+    printf("The number %d is %s.\n", n, (n % 2 == 0) ? "even" : "odd");
 
     return 0;
 }
@@ -19,5 +16,5 @@ int main() {
 /*
 -----------Output------------
 Enter a number : 7
-Odd number
+The number 7 is odd.
 */
