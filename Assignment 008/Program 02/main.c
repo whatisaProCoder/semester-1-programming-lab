@@ -11,6 +11,8 @@ int main() {
     nsqrt = sqrt(n);
 
     printf("Squareroot of %.2lf  = %.2lf\n", n, nsqrt);
+
+    return 0;
 }
 
 /*

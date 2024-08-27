@@ -13,6 +13,8 @@ int main() {
     ans = pow(n, power);
 
     printf("Value of %.2lf ^ %.2lf = %.2lf\n", n, power, ans);
+
+    return 0;
 }
 
 /*

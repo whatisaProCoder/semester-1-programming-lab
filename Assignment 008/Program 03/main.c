@@ -11,6 +11,8 @@ int main() {
     printf("sin %.3lf = %.3lf\n", n, sin(n));
     printf("cos %.3lf = %.3lf\n", n, cos(n));
     printf("tan %.3lf = %.3lf\n", n, tan(n));
+
+    return 0;
 }
 
 /*
