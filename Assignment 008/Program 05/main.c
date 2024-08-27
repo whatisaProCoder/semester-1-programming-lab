@@ -1,4 +1,5 @@
-//  e)  Fibonacci Number
+//  e)  Print the fibonacci sequence upto the
+//      number entered by the user.
 
 #include <stdio.h>
 int main() {
