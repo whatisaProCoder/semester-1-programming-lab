@@ -1,4 +1,4 @@
-//  c)  WAP in C to print if a number is prime or not
+//  d)  WAP in C to print if a number is prime or not
 
 #include <math.h>
 #include <stdio.h>
