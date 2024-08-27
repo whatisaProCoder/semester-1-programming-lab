@@ -7,17 +7,21 @@ int main() {
     printf("Enter a number : ");
     scanf("%d", &n);
 
+    printf("Fibonacci sequence..\n");
     for (int i = 1; i <= n; i++) {
         c = a + b;
-        printf("%d ", c);
+        printf("%d ", a);
         a = b;
         b = c;
     }
+    printf("\n");
 
     return 0;
 }
 
 /*
 -----------Output------------
-
+Enter a number : 8
+Fibonacci sequence..
+0 1 1 2 3 5 8 13
 */
