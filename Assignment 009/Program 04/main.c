@@ -1,4 +1,4 @@
-//  c)  Take a positive float number (say n) from the user.
+//  d)  Take a positive float number (say n) from the user.
 //      Print from -n to n in increment of 0.5
 
 #include <stdio.h>
