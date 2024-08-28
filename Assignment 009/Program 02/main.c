@@ -1,4 +1,4 @@
-//  a)  Print numbers from 10 to 1 in descending order.
+//  b)  Print numbers from 10 to 1 in descending order.
 
 #include <stdio.h>
 int main() {
