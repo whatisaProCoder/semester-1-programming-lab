@@ -1,7 +1,7 @@
 /*
 c)  Take any positive number from the user and print
     -> the sum of its digits
-    -> the number of its digits;
+    -> the number of its digits
 */
 
 #include <stdio.h>
