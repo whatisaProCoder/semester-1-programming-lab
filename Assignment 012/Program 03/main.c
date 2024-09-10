@@ -4,7 +4,7 @@ c)  WAP in C to print the first n numbers of the Fibonacci sequence.
 */
 
 #include <stdio.h>
-int fibonacci(int n) {
+void fibonacci(int n) {
     int a = 0, b = 1, c;
     printf("%d terms of Fibonacci Sequence..\n", n);
     for (int i = 1; i <= n; i++) {
