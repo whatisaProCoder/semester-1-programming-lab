@@ -1,23 +1,30 @@
 /*
-b)  WAP in C to define a function that prints
-    the factorial of a given number.
+b)  WAP in C to find the greatest of 3 given
+    numbers using function declaration.
 */
 
 #include <stdio.h>
-int factorial(int n) {
-    
+int greatest(int a, int b, int c) {
+    if (a > b && a > c)
+        return a;
+    else if (b > a && b > c)
+        return b;
+    else
+        return c;
 }
 int main() {
-    int n;
+    int a, b, c;
 
-    printf("Enter an integer : ");
-    scanf("%d", &n);
+    printf("Enter three numbers : ");
+    scanf("%d%d%d", &a, &b, &c);
 
+    printf("Greatest number = %d\n", greatest(a, b, c));
 
     return 0;
 }
 
 /*
 -----------Output------------
-
+Enter three numbers : 6 12 9
+Greatest number = 12
 */
