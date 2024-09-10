@@ -4,11 +4,12 @@ a)  WAP in C to define a function that prints
 */
 
 #include <stdio.h>
-int factorial(int n) {
-    if (n == 0)
-        return 1;
-    else
-        return n * factorial(n - 1);
+void factorial(int n) {
+    int fact = 1;
+    for (int i = 1; i <= n; i++) {
+        fact = fact * i;
+    }
+    printf("Factorial of %d = %d\n", n, fact);
 }
 int main() {
     int n;
@@ -16,7 +17,7 @@ int main() {
     printf("Enter an integer : ");
     scanf("%d", &n);
 
-    printf("Factorial of %d = %d\n", n, factorial(n));
+    factorial(n);
 
     return 0;
 }
