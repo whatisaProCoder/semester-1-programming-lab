@@ -1,5 +1,5 @@
 /*
-a)  Print the given pattern.
+b)  Print the given pattern.
 */
 
 #include <stdio.h>
