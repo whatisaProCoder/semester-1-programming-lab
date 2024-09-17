@@ -1,7 +1,6 @@
 /*
-c)  WAP in C program to define a function
-    that returns the n-th Fibonacci number.
-    Define the function recursively.
+c)  WAP in C program to define a function that returns the
+    n-th Fibonacci number. Define the function recursively.
 */
 
 #include <stdio.h>
