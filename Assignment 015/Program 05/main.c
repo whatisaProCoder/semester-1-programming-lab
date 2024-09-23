@@ -1,11 +1,12 @@
 /*
 d)  Print the following pattern with the number of rows taken from the user.
-    A
-     AB
-      ABC
+    ABCDEFG
+     ABCDEF
+      ABCDE
        ABCD
-        ABCDE
-         ABCDEF
+        ABC
+         AB
+          A
 */
 
 #include <stdio.h>
@@ -20,7 +21,7 @@ int main() {
             printf(" ");
         }
         char ch = 'A';
-        for (int j = 1; j <= i; j++) {
+        for (int j = 1; j <= n - i + 1; j++) {
             printf("%c", ch++);
         }
         printf("\n");
@@ -31,11 +32,12 @@ int main() {
 
 /*
 -----------Output------------
-Enter number of rows : 6
-A
- AB
-  ABC
+Enter number of rows : 7
+ABCDEFG
+ ABCDEF
+  ABCDE
    ABCD
-    ABCDE
-     ABCDEF
+    ABC
+     AB
+      A
 */
