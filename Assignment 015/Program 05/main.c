@@ -1,5 +1,5 @@
 /*
-d)  Print the following pattern with the number of rows taken from the user.
+e)  Print the following pattern with the number of rows taken from the user.
     ABCDEFG
      ABCDEF
       ABCDE
