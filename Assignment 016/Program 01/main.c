@@ -4,16 +4,16 @@ a)  WAP in C to define and call a function that takes the temperature
 */
 
 #include <stdio.h>
-float celsiusToFahrenheit(float celsius) {
-    return (celsius * 9.0 / 5.0) + 32.0;
+float getF(float c) {
+    return (c * 9.0 / 5.0) + 32.0;
 }
 int main() {
-    float celsius;
+    float c;
     printf("Enter temperature in Celsius: ");
-    scanf("%f", &celsius);
+    scanf("%f", &c);
 
-    float fahrenheit = celsiusToFahrenheit(celsius);
-    printf("Temperature in Fahrenheit: %.2f\n", fahrenheit);
+    float f = getF(c);
+    printf("Temperature in Fahrenheit: %.2f\n", f);
 
     return 0;
 }
