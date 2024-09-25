@@ -1,5 +1,10 @@
 /*
 a)  Print the following pattern.
+            *          
+          *   *
+        *       *
+      *           *
+    * * * * * * * * *
 */
 
 #include <stdio.h>
