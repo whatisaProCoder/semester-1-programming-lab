@@ -9,13 +9,13 @@ b)  Write a program in C where a function named
 #include <stdio.h>
 float circlearea(float r) { return 3.14 * r * r; }
 int main() {
-  float r = 7.33;
-  float area = circlearea(r);
+    float r = 7.33;
+    float area = circlearea(r);
 
-  printf("Radius of circle: %.2f\n", r);
-  printf("Area of circle: %.2f\n", area);
+    printf("Radius of circle: %.2f\n", r);
+    printf("Area of circle: %.2f\n", area);
 
-  return 0;
+    return 0;
 }
 
 /*
