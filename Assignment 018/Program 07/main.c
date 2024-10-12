@@ -5,9 +5,9 @@ g)  Write a program in C where a function is defined
 */
 
 #include <stdio.h>
-float get_avg(int a, int b, int c) {
+void print_avg(int a, int b, int c) {
     float avg = (float)(a + b + c) / 3;
-    return avg;
+    printf("Average = %.2f\n", avg);
 }
 int main() {
     int a, b, c;
@@ -15,7 +15,7 @@ int main() {
     printf("Enter 3 integers: ");
     scanf("%d%d%d", &a, &b, &c);
 
-    printf("Average = %.2f\n", get_avg(a, b, c));
+    print_avg(a, b, c);
 
     return 0;
 }
