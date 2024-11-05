@@ -39,6 +39,8 @@ int main() {
     printf("Author : %s\n", exp_book.author);
     printf("Title  : %s\n", exp_book.title);
     printf("Price : %.2f\n", exp_book.price);
+
+    return 0;
 }
 
 /*

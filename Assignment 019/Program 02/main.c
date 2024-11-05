@@ -37,6 +37,8 @@ int main() {
     printf("Company name : %s\n", exp_car.comp_name);
     printf("Model        : %s\n", exp_car.model);
     printf("Price : %.2f\n", exp_car.price);
+
+    return 0;
 }
 
 /*
