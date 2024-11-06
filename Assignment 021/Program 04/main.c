@@ -8,7 +8,7 @@ int main() {
     int sz = sizeof(a) / sizeof(a[0]);
     int mul = 1;
     printf("Odd indexed values...\n");
-    for (int i = 0; i < sz; i += 2) {
+    for (int i = 1; i < sz; i += 2) {
         printf("%d\n", a[i]);
         mul *= a[i];
     }
@@ -19,9 +19,9 @@ int main() {
 /*
 -----------Output-------------------------
 Odd indexed values...
-1
-3
-5
-7
-Multiplication = 105
+2
+4
+6
+8
+Multiplication = 384
 */
