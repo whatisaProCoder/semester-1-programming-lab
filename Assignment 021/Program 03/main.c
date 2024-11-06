@@ -13,6 +13,7 @@ int main() {
         sum += a[i];
     }
     printf("Sum = %d\n", sum);
+    return 0;
 }
 
 /*

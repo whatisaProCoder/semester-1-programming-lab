@@ -13,6 +13,7 @@ int main() {
         mul *= a[i];
     }
     printf("Multiplication = %d\n", mul);
+    return 0;
 }
 
 /*
