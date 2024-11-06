@@ -5,7 +5,10 @@ f)  Declare an array of size 10. Take elements from the keyboard.
 
 #include <stdio.h>
 int main() {
-    
+    int sz=10;
+    int a[sz];
+    printf("Enter 10 elements...");
+    for(int i=0;i<sz;i)
     return 0;
 }
 
