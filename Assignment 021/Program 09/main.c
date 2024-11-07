@@ -5,7 +5,6 @@ i)  Print all unique elements in an array.
 */
 
 #include <stdio.h>
-
 void elements(int a[], int sz) {
     for (int i = 0; i < sz; i++) {
         int j;
@@ -20,7 +19,6 @@ void elements(int a[], int sz) {
     }
     printf("\n");
 }
-
 int main() {
     int a[] = {2, 3, 2, 1, 4, 6, 4, 6};
     int sz = sizeof(a) / sizeof(a[0]);
