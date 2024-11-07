@@ -12,6 +12,7 @@ int main() {
     int a[] = {2, 3, 4, 6, 7, 8};
     int sz = sizeof(a) / sizeof(a[0]);
     printarr(a, 0, sz);
+    return 0;
 }
 
 /*
