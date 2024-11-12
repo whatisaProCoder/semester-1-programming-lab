@@ -15,7 +15,8 @@ void reverse(char *str, int len) {
 int main() {
     char str[50];
     printf("Enter a string...\n");
-    scanf("%s", str);
+    fgets(str, sizeof(str), stdin);
+    str[strcspn(str, "\n")] = '\0';
 
     // reverse
     int len = strlen(str);

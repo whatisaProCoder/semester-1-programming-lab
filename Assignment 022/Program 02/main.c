@@ -18,7 +18,8 @@ void sort(char *str, int len) {
 int main() {
     char str[50];
     printf("Enter a string...\n");
-    scanf("%s", str);
+    fgets(str, sizeof(str), stdin);
+    str[strcspn(str, "\n")] = '\0';
 
     // sorting
     int len = strlen(str);
